@@ -8,6 +8,6 @@ const server = new ApolloServer({
     resolvers: resolvers
 });
 
-server.listen("https://e-commerce-backend-data.herokuapp.com/").then(({ url }) => {
+server.listen("https:then(({ url }) => {
     console.log(`🚀  Server ready at ${url}`);
 });
