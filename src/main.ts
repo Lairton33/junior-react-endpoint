@@ -8,6 +8,6 @@ const server = new ApolloServer({
     resolvers: resolvers
 });
 
-server.listen("https:then(({ url }) => {
+server.listen().then(({ url }) => {
     console.log(`🚀  Server ready at ${url}`);
 });
